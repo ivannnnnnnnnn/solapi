@@ -36,5 +36,5 @@ class SAResponseConstsCollectionStats:
     FLOOR_PRICE = 'floorPrice'
     OWNER_COUNT = 'ownerCount'
     SYMBOL = 'collection'
-    LAST_UPDATE = 'last_updated'
+    LAST_UPDATE = 'lastUpdated'
     CATEGORY = 'category'
