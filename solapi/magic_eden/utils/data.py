@@ -21,7 +21,7 @@ def collection_info_cleaner(item: dict) -> MECollectionInfo:
     return {
         'symbol': item.get(MEResponseConstsCollectionInfo.SYMBOL),
         'name': item.get(MEResponseConstsCollectionInfo.NAME),
-        'image_url': item.get(MEResponseConstsCollectionInfo.IMAGE),
+        'img': item.get(MEResponseConstsCollectionInfo.IMAGE),
         'description': item.get(MEResponseConstsCollectionInfo.DESCRIPTION),
         'created': parse_date(item.get(MEResponseConstsCollectionInfo.CREATED)),
         'website': item.get(MEResponseConstsCollectionInfo.WEBSITE),

@@ -14,7 +14,7 @@ class MECollectionStats(TypedDict):
 class MECollectionInfo(TypedDict):
     symbol: str
     name: str
-    image_url: str
+    img: str
     description: str
     created: datetime
     website: str
