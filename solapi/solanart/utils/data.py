@@ -14,7 +14,7 @@ def collection_list_cleaner(item: dict) -> SACollectionInfo:
         'new': parse_str_status(item.get(SAResponseConstsCollectionInfo.NEW)),
         'soon': parse_str_status(item.get(SAResponseConstsCollectionInfo.SOON)),
         'trending': parse_str_status(item.get(SAResponseConstsCollectionInfo.TRENDING)),
-        'date': parse_timestamp(item.get(SAResponseConstsCollectionInfo.DATE)),
+        'created': parse_timestamp(item.get(SAResponseConstsCollectionInfo.CREATED)),
         'supply': item.get(SAResponseConstsCollectionInfo.SUPPLY),
         'twitter': item.get(SAResponseConstsCollectionInfo.TWITTER),
         'website': item.get(SAResponseConstsCollectionInfo.WEBSITE),

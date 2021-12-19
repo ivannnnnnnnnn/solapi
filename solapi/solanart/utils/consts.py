@@ -13,7 +13,7 @@ class SAResponseConstsCollectionInfo:
     NEW = 'new'
     SOON = 'soon'
     TRENDING = 'trending'
-    DATE = 'date'
+    CREATED = 'date'
     SUPPLY = 'supply'
     TWITTER = 'twitter'
     WEBSITE = 'website'

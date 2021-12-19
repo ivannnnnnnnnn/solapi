@@ -10,7 +10,7 @@ class SACollectionInfo:
     new: bool
     soon: bool
     trending: bool
-    date: date
+    created: date
     supply: int
     twitter: str
     website: str
