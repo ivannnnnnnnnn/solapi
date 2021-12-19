@@ -52,7 +52,7 @@ SolanartCollectionApi: solapi.solanart.api.collection.SolanartCollectionApi
 TypeAnnotations: solapi.solanart.utils.types
 
 SolanartCollectionApi:
-    get_collection_list_dirty(): List[Didct]
+    get_collection_list_dirty(): List[Dict]
     get_collection_list(): List[SACollectionInfo]
     get_collection_list_stats_dirty(): List[Dict]
     get_collection_list_stats(): List[SACollectionStats]
