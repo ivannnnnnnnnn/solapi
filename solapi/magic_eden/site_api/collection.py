@@ -1,9 +1,9 @@
 from typing import Optional, Dict, List
 
-from solapi.magic_eden.utils.consts import MEAPIUrls
-from solapi.magic_eden.utils.data import collection_stats_cleaner, collection_info_cleaner, \
+from solapi.magic_eden.site_api.utils.consts import MEAPIUrls
+from solapi.magic_eden.site_api.utils.data import collection_stats_cleaner, collection_info_cleaner, \
     collection_list_stats_cleaner
-from solapi.magic_eden.utils.types import MECollectionStats, MECollectionInfo, MECollectionMetrics
+from solapi.magic_eden.site_api.utils.types import MECollectionStats, MECollectionInfo, MECollectionMetrics
 from solapi.utils.api import BaseApi
 
 
