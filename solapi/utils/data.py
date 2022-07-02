@@ -1,3 +1,6 @@
+from typing import List, Optional
+
+
 def parse_str_status(status: str):
     """
     :param status: num in str (eg '1', '0')
@@ -27,3 +30,7 @@ def dict_get_recursive_safe(d: dict, key: str, separator='.'):
         return dict_get_recursive(d, key, separator)
     except:
         return None
+
+
+def list_map(func, collection: Optional[List]):
+    return None if collection is None else list(map(func, collection))
